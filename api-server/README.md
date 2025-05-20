@@ -32,11 +32,10 @@ et all bookings for the logged-in user
 
 - Create a .env file in the project root with the following content:
 
-PORT=5000
-MONGO_URI=your_mongo_connection_string
-NATS_CLUSTER_ID=crypto-cluster
-NATS_CLIENT_ID=api-server
-NATS_URL=nats://localhost:4222
+- PORT=8000
+- MONGO_URI=your_mongo_connection_string
+- COIN_URL=CoinGecko_api
+
 
 ## 🚀 Run Project Locally
 
